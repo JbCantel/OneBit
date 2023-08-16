@@ -1,0 +1,19 @@
+@import url(https://fonts.googleapis.com/css?family=lato:300,400,700|PT++Mono);
+
+:root{
+    --primary-color:#14639c;
+    --secondary-color:Dimgrey;
+    --tetriary-color:Gainsboro;
+}
+
+body{
+    background-color: var(--primary-color);
+    font-size: 15px;
+    font-family: Lato, sans-serif;
+}
+
+h1{
+    color: rgb(1, 15, 39);
+
+}
+
