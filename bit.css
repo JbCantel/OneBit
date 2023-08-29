@@ -1,24 +1,25 @@
 @import url(https://fonts.googleapis.com/css?family=lato:300,400,700|PT++Mono);
 
-:root{
-    --primary-color:#14639c;
-    --secondary-color:Dimgrey;
-    --tetriary-color:Gainsboro;
+:root {
+    /*Criação das váriavéis*/
+    --primary-color: #14639c;
+    --secondary-color: Dimgrey;
+    --tetriary-color: Gainsboro;
 }
 
-body{
+body {
     background-color: var(--primary-color);
     font-size: 15px;
     font-family: Lato, sans-serif;
 }
 
-h1{
+h1 {
     color: rgb(1, 15, 39);
 
 }
 
-#container{
-    height:525px;
+#container {
+    height: 525px;
     width: 360px;
     margin: 100px auto;
     background: #f7f7f7;
@@ -26,7 +27,7 @@ h1{
     border-radius: 20px;
 }
 
-.title{
+.title {
     background: var(--tetriary-color);
     color: var(--secondary-color);
     padding: 20px;
@@ -38,6 +39,36 @@ h1{
     text-align: center;
 }
 
-.tipsform{
-    
+.tipsform {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.formInput {
+    background: white;
+    width: 40px;
+    padding: 5px 5px 8px 8px;
+}
+
+.formInput:focus {
+    border: 3px solid var(--primary-color)
+}
+
+.formSelect {
+    width: 180px;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.formSubmit {
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 30px auto;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    color: white;
 }
