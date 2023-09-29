@@ -27,7 +27,7 @@ function calculateTip(event) {
     document.getElementById('totalTip').style.display = "block";
 }
 
-// Bloqueia a exibição antes do tempo na calculador a
+// Bloqueia a exibição antes do tempo na calculadora.
 document.getElementById('totalTip').style.display = "none";
 document.getElementById('each').style.display = "none";
 
